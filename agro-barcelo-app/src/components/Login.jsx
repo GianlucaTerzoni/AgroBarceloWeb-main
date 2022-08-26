@@ -59,7 +59,7 @@ export const Login = () => {
                     {renderErrorMessage('pass')}
                 </div>
                 <div className='button-container'>
-                    <button onClick=''>Ingresar</button>
+                    <button onClick={handleSubmit}>Ingresar</button>
                 </div>
             </form>
         </div>
