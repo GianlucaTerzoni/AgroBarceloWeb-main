@@ -16,7 +16,8 @@ body {
     align-items: center;
     gap: 2rem;
     padding: 0 1rem;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: -89rem;
 }
 
 .nav ul {
@@ -38,6 +39,7 @@ body {
 
 .nav li:hover {
     background-color: #777;
+    transition: background-color 0.45s;
 }
 
 .nav li {
