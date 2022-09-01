@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 import React from "react";
 import { NavBar } from "./components/Navbar";
 import  Formulario  from "./components/Formulario";
