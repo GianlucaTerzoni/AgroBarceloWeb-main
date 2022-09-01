@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+<<<<<<< HEAD
   <head>
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
@@ -16,11 +17,22 @@
       crossorigin="anonymous"
     ></script>
     <!--
+=======
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="%PUBLIC_URL%/Agrobarcelo.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="description" content="Web site created using create-react-app" />
+  <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+  <!--
+>>>>>>> 76d189b675c9fc1f2602fab192663fb6923a87d8
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
     -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+  <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
       Only files inside the `public` folder can be referenced from the HTML.
@@ -29,12 +41,126 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
-  </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!--
+  <title>Agro Barcelo</title>
+  <!-- <div class="mapouter">
+    <div class="gmap_canvas"><iframe width="448" height="313" id="gmap_canvas"
+        src="https://maps.google.com/maps?q=San%20Luis%20759,%20S2508%20Armstrong,%20Santa%20Fe&t=&z=17&ie=UTF8&iwloc=&output=embed"
+        frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
+        href="https://www.embedgooglemap.net/blog/divi-discount-code-elegant-themes-coupon/"></a><br>
+      <style>
+        .mapouter {
+
+          align-self: center;
+          text-align: right;
+          height: 313px;
+          width: 448px;
+        }
+
+        .gmap_canvas {
+          overflow: hidden;
+          background: none !important;
+          height: 313px;
+          width: 448px;
+          margin-top: 70rem;
+          margin-right: 100rem;
+        }
+      </style>
+    </div>
+  </div>
+  <div class="mapouter2">
+    <div class="gmap_canvas2"><iframe width="448" height="313" id="gmap_canvas"
+        src="https://maps.google.com/maps?q=%20776%20Uriburu%20San%20Carlos%20de%20Bol%C3%ADvar,%20Buenos%20Aires%20Province&t=&z=17&ie=UTF8&iwloc=&output=embed"
+        frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
+        href="https://www.embedgooglemap.net/blog/divi-discount-code-elegant-themes-coupon/"></a><br>
+      <style>
+        .mapouter2 {
+
+          align-self: center;
+          text-align: right;
+          height: 313px;
+          width: 448px;
+        }
+
+        .gmap_canvas2 {
+          overflow: hidden;
+          background: none !important;
+          height: 313px;
+          width: 448px;
+          margin-top: -20rem;
+          margin-left: 32rem;
+
+        }
+      </style>
+    </div>
+  </div>
+  <div class="mapouter3">
+    <div class="gmap_canvas3"><iframe width="448" height="313" id="gmap_canvas"
+        src="https://maps.google.com/maps?q=Ruta%20Provincial%2065%20%20Del%20Valle%20Iberlucea%20Jun%C3%ADn,%20Buenos%20Aires%20Province&t=&z=17&ie=UTF8&iwloc=&output=embed"
+        frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
+        href="https://www.embedgooglemap.net/blog/divi-discount-code-elegant-themes-coupon/"></a><br>
+      <style>
+        .mapouter3 {
+          align-self: center;
+          text-align: right;
+          height: 313px;
+          width: 448px;
+        }
+
+        .gmap_canvas3 {
+          overflow: hidden;
+          background: none !important;
+          height: 313px;
+          width: 448px;
+          margin-left: 63rem;
+          margin-top: -20rem;
+        }
+      </style>
+    </div>
+  </div> -->
+  <style>
+    .loading {
+      -webkit-animation: sk-scaleout 1s infinite ease-in-out;
+      animation: sk-scaleout 1s infinite ease-in-out;
+      background-color: #f90000cd;
+      border-radius: 100%;
+      height: 6em;
+      width: 6em;
+    }
+
+    .container {
+
+      align-items: center;
+      background-color: white;
+      display: flex;
+      height: 100vh;
+      justify-content: center;
+      width: 100vw;
+    }
+
+    @keyframes sk-scaleout {
+      0% {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+      }
+
+      100% {
+        -webkit-transform: scale(1);
+        opacity: 0.5;
+        transform: scale(1);
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="root">
+    <div id="spinner" class='container'>
+      <div class="loading">
+      </div>
+    </div>
+  </div>
+  <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
 
@@ -44,5 +170,6 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
-  </body>
+</body>
+
 </html>
